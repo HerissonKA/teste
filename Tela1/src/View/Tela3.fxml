@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="883.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.Tela3Controller">
+   <children>
+      <Button layoutX="37.0" layoutY="43.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Button" />
+      <Button layoutX="37.0" layoutY="80.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Button" />
+      <Button layoutX="37.0" layoutY="118.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="Button" />
+      <MenuBar layoutX="218.0" layoutY="43.0" prefHeight="25.0" prefWidth="232.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="View">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <CheckBox layoutX="37.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="CheckBox" />
+      <ComboBox layoutX="37.0" layoutY="200.0" prefHeight="25.0" prefWidth="107.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="235.0" layoutX="184.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="485.0" />
+      <TextArea layoutX="453.0" layoutY="104.0" prefHeight="200.0" prefWidth="200.0" />
+      <ImageView fitHeight="200.0" fitWidth="208.0" layoutX="218.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true" />
+      <ScrollBar layoutX="184.0" layoutY="321.0" prefHeight="14.0" prefWidth="485.0" />
+      <ProgressBar layoutX="42.0" layoutY="242.0" prefHeight="18.0" prefWidth="107.0" progress="0.36" />
+      <ComboBox layoutX="702.0" layoutY="343.0" prefWidth="150.0" promptText="3" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Tela4Controller">
+   <children>
+      <ListView layoutX="313.0" layoutY="42.0" prefHeight="348.0" prefWidth="333.0" />
+      <Button layoutX="324.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="COZINHA" />
+      <ListView layoutX="14.0" layoutY="43.0" prefHeight="348.0" prefWidth="287.0" />
+      <Button layoutX="26.0" layoutY="100.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="125.0" text="Cenario" />
+      <Button layoutX="171.0" layoutY="100.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="125.0" text="Programação" />
+      <Button layoutX="26.0" layoutY="231.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="125.0" text="musica ambiente" />
+      <Button layoutX="171.0" layoutY="231.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="125.0" text="modo operção " />
+      <Label layoutX="26.0" layoutY="25.0" text="SERVIÇOS" />
+      <Label layoutX="329.0" layoutY="25.0" text="AMBIENTES" />
+      <Button layoutX="324.0" layoutY="293.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="SALA DE ESTAR" />
+      <Button layoutX="324.0" layoutY="142.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="home" />
+      <Button layoutX="324.0" layoutY="217.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="quarto do bebe" />
+      <Button layoutX="457.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="escritorio" />
+      <Button layoutX="457.0" layoutY="142.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="jantar" />
+      <Button layoutX="457.0" layoutY="217.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="quarto do casal" />
+      <Button layoutX="457.0" layoutY="293.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="116.0" text="temaço" />
+   </children>
+</AnchorPane>

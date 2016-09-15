@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Painel" prefHeight="615.0" prefWidth="623.0" style="-fx-background-color: #a8aba6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Tela9Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3dbdd" height="91.0" layoutX="1.0" layoutY="6.0" stroke="#dee4dc" strokeType="INSIDE" width="339.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3dbdd" height="91.0" layoutX="343.0" layoutY="6.0" stroke="#4396a1" strokeType="INSIDE" width="108.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3dbdd" height="133.0" layoutX="24.0" layoutY="481.0" stroke="#4396a1" strokeType="INSIDE" width="167.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3dbdd" height="133.0" layoutX="221.0" layoutY="481.0" stroke="#4396a1" strokeType="INSIDE" width="377.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3dbdd" height="91.0" layoutX="454.0" layoutY="6.0" stroke="#4396a1" strokeType="INSIDE" width="174.0" />
+      <TableView editable="true" layoutY="160.0" prefHeight="120.0" prefWidth="612.0">
+        <columns>
+          <TableColumn prefWidth="34.0" text="Tipo" />
+          <TableColumn prefWidth="27.0" text="SIT" />
+            <TableColumn prefWidth="72.0" text="Nota Fiscal" />
+            <TableColumn prefWidth="181.0" text="Fornecedor ou Loja de Origem" />
+            <TableColumn prefWidth="150.0" text="Loja Destino" />
+            <TableColumn prefWidth="68.0" text="Emissão" />
+            <TableColumn prefWidth="79.0" text="DATA MOV." />
+        </columns>
+      </TableView>
+      <TableView layoutY="341.0" prefHeight="120.0" prefWidth="613.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Registro MS" />
+          <TableColumn prefWidth="101.0" text="Nome Comercial" />
+            <TableColumn prefWidth="232.0" text="Apresentação" />
+            <TableColumn minWidth="3.0" prefWidth="67.0" text="Lote" />
+            <TableColumn prefWidth="64.0" text="Caixas" />
+            <TableColumn prefWidth="73.0" text="Fabricantes" />
+        </columns>
+      </TableView>
+      <ScrollBar layoutX="612.0" layoutY="160.0" orientation="VERTICAL" prefHeight="120.0" prefWidth="14.0" />
+      <ScrollBar layoutX="612.0" layoutY="341.0" orientation="VERTICAL" prefHeight="120.0" prefWidth="14.0" />
+      <ScrollBar layoutY="461.0" prefHeight="14.0" prefWidth="613.0" />
+      <Button layoutX="45.0" layoutY="508.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="128.0" style="-fx-background-color: #726e6e;" text="NF Compras" textFill="#252424" />
+      <Button layoutX="45.0" layoutY="544.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="128.0" style="-fx-background-color: #726e6e;" text="NF Entrada" />
+      <Button layoutX="44.0" layoutY="580.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="128.0" style="-fx-background-color: #726e6e;" text="NF Saída" />
+      <Label layoutX="44.0" layoutY="481.0" text="Novas" textFill="#727375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="486.0" text="Manter/Consultar" textFill="#727375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="230.0" layoutY="511.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="167.0" style="-fx-background-color: #726e6e;" text="Alterar" />
+      <Button layoutX="407.0" layoutY="511.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="167.0" style="-fx-background-color: #726e6e;" text="Excluir" />
+      <Button layoutX="230.0" layoutY="547.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="167.0" style="-fx-background-color: #726e6e;" text="Historico de Movimentação" />
+      <Button layoutX="407.0" layoutY="547.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="167.0" style="-fx-background-color: #726e6e;" text="Rastreamento" />
+      <Button layoutX="337.0" layoutY="580.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="128.0" style="-fx-background-color: #726e6e;" text="Voltar" />
+      <Label layoutX="31.0" layoutY="6.0" text="Filtros" textFill="#727375">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="348.0" layoutY="11.0" text="Ordenação" textFill="#727375">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="465.0" layoutY="11.0" text="Busca" textFill="#727375">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="2.0" layoutY="31.0" text="Data Inicial" />
+      <Label layoutX="5.0" layoutY="61.0" text="Data Final" />
+      <Label layoutX="462.0" layoutY="31.0" text="Número da NF" />
+      <Label layoutX="10.0" layoutY="134.0" text="Notas Fiscais" textFill="#727375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="318.0" text="Medicamentos da NF" textFill="#727375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="61.0" layoutY="27.0" prefHeight="25.0" prefWidth="78.0" />
+      <TextField layoutX="61.0" layoutY="57.0" prefHeight="25.0" prefWidth="78.0" />
+      <CheckBox layoutX="143.0" layoutY="13.0" mnemonicParsing="false" text="Todas" />
+      <CheckBox layoutX="143.0" layoutY="31.0" mnemonicParsing="false" text="Não Transmitidas" textFill="#323232" />
+      <CheckBox layoutX="262.0" layoutY="6.0" mnemonicParsing="false" text="Aceitas" />
+      <CheckBox layoutX="143.0" layoutY="49.0" mnemonicParsing="false" text="Aguardar Validação" />
+      <CheckBox layoutX="262.0" layoutY="24.0" mnemonicParsing="false" text="Rejeitadas" />
+      <Button layoutX="201.0" layoutY="69.0" mnemonicParsing="false" prefHeight="1.0" prefWidth="53.0" style="-fx-background-color: #726e6e;" text="Aplicar" />
+      <CheckBox layoutX="347.0" layoutY="33.0" mnemonicParsing="false" text="Data MOV." />
+      <CheckBox layoutX="347.0" layoutY="53.0" mnemonicParsing="false" text="Data Emissão" />
+      <CheckBox layoutX="347.0" layoutY="72.0" mnemonicParsing="false" text="Fornecedor" />
+      <TextField layoutX="465.0" layoutY="54.0" prefHeight="25.0" prefWidth="75.0" />
+      <Button layoutX="551.0" layoutY="42.0" mnemonicParsing="false" style="-fx-background-color: #726e6e;" text="Buscar" />
+   </children>
+</AnchorPane>
