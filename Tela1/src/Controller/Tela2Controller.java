@@ -12,7 +12,7 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author Aluno
+ * @author Herisson
  */
 public class Tela2Controller implements Initializable {
 
